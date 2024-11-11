@@ -1,5 +1,5 @@
 <template>
-    <v-expansion-panels>
+    <v-expansion-panels class="my-5">
         <v-expansion-panel :color="color">
             <v-expansion-panel-title>
                 <b class="text-h5">{{ title?.toUpperCase() }}</b>

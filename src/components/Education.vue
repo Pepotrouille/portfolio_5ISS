@@ -2,7 +2,7 @@
     <v-container class="mb-16" v-if="currentContent == null">
         <v-row class="mb-4">
             <v-col>
-                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">FORMATION 5ISS</v-sheet>
+                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">Education 5ISS</v-sheet>
             </v-col>
         </v-row>
         <v-row class="mb-4">
@@ -15,7 +15,7 @@
         <v-row class="mb-4">
             <v-col>
                 <v-sheet color="secondary" class="text-h3 font-weight-bold text-center pa-5">
-                    Domaine - Systèmes Communicants pour l'IoT
+                    Domain - Communication Systems for IoT
                 </v-sheet>
             </v-col>
         </v-row>
@@ -25,7 +25,7 @@
         <v-row class="mt-16">
             <v-col>
                 <v-sheet color="primary" class="text-h3 font-weight-bold text-center pa-5">
-                    Domaine - Systèmes Informatiques pour l'IoT
+                    Domain - Computer Systems for IoT
                 </v-sheet>
             </v-col>
         </v-row>
@@ -35,7 +35,7 @@
         <v-row class="mt-16">
             <v-col>
                 <v-sheet color="info" class="text-h3 font-weight-bold text-center pa-5">
-                    Matières transversales
+                    Cross-disciplinary subjects
                 </v-sheet>
             </v-col>
         </v-row>
@@ -49,12 +49,12 @@
 </template>
 
 <script lang="ts">
-    import WSNPage from './formation/subject/WSNPage.vue';
-    import CloudComputingPage from './formation/subject/CloudComputingPage.vue';
-    import SmartDevicesPage from './formation/subject/SmartDevicesPage.vue';
-    import EmbeddedAIPage from './formation/subject/EmbeddedAIPage.vue';
-    import SecurityIoTPage from './formation/subject/SecurityIoTPage.vue';
-    import EnergyConnectedObjects from './formation/subject/EnergyConnectedObjects.vue';
+    import WSNPage from './education/subject/WSNPage.vue';
+    import CloudComputingPage from './education/subject/CloudComputingPage.vue';
+    import SmartDevicesPage from './education/subject/SmartDevicesPage.vue';
+    import EmbeddedAIPage from './education/subject/EmbeddedAIPage.vue';
+    import SecurityIoTPage from './education/subject/SecurityIoTPage.vue';
+    import EnergyConnectedObjects from './education/subject/EnergyConnectedObjects.vue';
 
     //Changer en classes pour avoir couleur, titres et listes
     export default {

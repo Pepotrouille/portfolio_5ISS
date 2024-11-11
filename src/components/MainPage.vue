@@ -2,7 +2,7 @@
     <SiteHeader @change-page="ChangePage"/>
 
   <Personal v-if="currentPage ==='Personal'" style="padding-left: 15%; padding-right: 15%;"/>
-  <Formation v-if="currentPage ==='Formation'" style="padding-left: 15%; padding-right: 15%;"/>
+  <Education v-if="currentPage ==='Education'" style="padding-left: 15%; padding-right: 15%;"/>
   <Experience v-if="currentPage ==='Experience'" style="padding-left: 15%; padding-right: 15%;"/>
   
   <SiteFooter @change-page="ChangePage"/>
@@ -11,14 +11,14 @@
 
 <script lang="ts">
   import Personal from './Personal.vue';
-  import Formation from './Formation.vue';
+  import Education from './Education.vue';
   import Experience from './Experience.vue';
   //import SiteHeader from './SiteHeader.vue';
 
   export default {
     components: {
       Personal,
-      Formation,
+      Education,
       Experience,
     },
     data() {

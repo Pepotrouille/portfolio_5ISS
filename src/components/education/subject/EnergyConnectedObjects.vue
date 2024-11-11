@@ -1,0 +1,73 @@
+<template>
+    <BackButton @change-content="ChangeContent" color="secondary" class="mb-4"/>
+    
+    <TitleSubject title="ENERGY FOR CONNECTED OBJECTS" teacher="Gaël Loubet" color="primary"/>
+
+    <!---->
+    <h3>Description of the subject</h3>
+    <p class="justify-center my-5">
+        <br>
+    </p>
+
+    <!---->
+    <h3>Realisation</h3>
+    <p class="justify-center my-5">
+        <br>
+    </p>
+
+    <!---->
+    <h3>Analysis</h3>
+    <p class="justify-center my-5">
+        <br>
+    </p>
+
+    En construction
+
+    <v-table class="bg-surface-darken-3">
+    <thead>
+      <tr>
+        <th class="text-left">Skill</th>
+        <th class="text-left">Expected</th>
+        <th class="text-left">Estimated</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        v-for="item in skill_matrix"
+        :key="item.skill"
+      >
+        <td>{{ item.skill }}</td>
+        <td>{{ item.expected }}</td>
+        <td>{{ item.estimated }}</td>
+      </tr>
+    </tbody>
+  </v-table>
+
+    <!---->
+    <PDFReader  path="./documents/reports/Report_Energy-Brunetto-Biendou.pdf" 
+                title="Report - Lab courses" 
+                language="English" 
+                madeBy="Marie BRUNETTO, Brian BIENDOU"
+                color="secondary"/>
+
+
+
+</template>
+
+<script lang="ts">
+
+    export default {
+        data() {
+            return {
+                skill_matrix: [ {skill: "Unknown", expected: 0, estimated: 0},
+                                ]
+            }
+        },
+        name: 'TemplateButtons',
+            methods: {
+                ChangeContent(contentTemplate: any) {
+                this.$emit('change-content', contentTemplate);
+                },
+            },
+    };
+</script>

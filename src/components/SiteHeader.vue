@@ -6,8 +6,8 @@
           ABOUT ME
         </v-btn>
   
-        <v-btn @click="ChangePage('Formation')">
-          FORMATION
+        <v-btn @click="ChangePage('Education')">
+          Education
         </v-btn>
   
         <v-btn @click="ChangePage('Experience')">

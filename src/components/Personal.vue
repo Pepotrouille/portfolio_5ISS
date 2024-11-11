@@ -5,18 +5,22 @@
                 <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">About Me</v-sheet>
             </v-col>
         </v-row>
+        
+        <!--WHO I AM SECTION-->
         <v-row :style='"margin-bottom: "+marge+"px;"'>
             <v-col  cols="8"  class="my-auto">
-                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Who Am I</v-sheet>
+                <!--<v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Who I AM</v-sheet>-->
                 <v-sheet color="surface-darken-1" class="text-justify">
-                    My name is Marie. I am a student in the ingeneering university of the National Institute of Applied Science, a.k.a. INSA, from Toulouse, France.
+                    <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; My name is Marie. I am a student in the ingeneering university of the National Institute of Applied Science, a.k.a. INSA, from Toulouse, France.
                     I am currently in my fifth and last year of my cursus, with a specialisation in Computer and Network Engineering.
-                    Through this portfolio, I will talk about my formation, my experiences as well as my interests and profesional projects.
-                    <!--
+                    Through this portfolio, I will talk about my Education, my experiences as well as my interests and profesional projects.
+                    <!-- Version FR
                     Je m'appelle Marie, je suis une étudiante à l'école d'ingénieur Institut National des Sciences Appliquées, a.k.a INSA, de Toulouse, France. 
                     Je suis actuellement en 5ème et dernière année de mon diplôme d'ingénieur, avec une spécialité en Informatique et Réseaux.
-                    À travers ce portfolio, je vous présenterai ma formation, mes expériences ainsi que mes intérêts et projets professionnels. 
+                    À travers ce portfolio, je vous présenterai ma Education, mes expériences ainsi que mes intérêts et projets professionnels. 
                     -->
+                    </p>
                     
                 </v-sheet>
             </v-col>
@@ -24,45 +28,106 @@
                 <img src="..\assets\images\personnel\Me.png" width="100%">
             </v-col>
         </v-row>
+        
+        <!--TIMELINE SECTION-->
         <v-row :style='"margin-bottom: "+marge+"px;"'>
             <v-col>
-                <v-sheet  color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Formation</v-sheet>
-                <TimelineFormation/>
+                <v-sheet  color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Education</v-sheet>
+                <TimelineEducation/>
             </v-col>
         </v-row>
+        
+        <!--CAREER SECTION-->
         <v-row :style='"margin-bottom: "+marge+"px; margin-top: 80px;"'>
             <v-col  cols="8"  class="my-auto">
-                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Projets professionnels</v-sheet>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Career Plans</v-sheet>
+                <h3 class="text-center mt-5">INSA Toulouse</h3>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; Through a Scientific Baccalaureat with IT options, I aimed to join a school to teach me more about computer science.
+                Thereby, I joined INSA Toulouse for its renowned courses about this specific subject, I followed the correponding cursus from the first year of "Formation Initiale" to the last year of engineering cycle, first through "Modélisation Informatique et Communication", or MIC, and then through "Informatique et Réseaux", or IR. 
+                </p>
+
+                <h3 class="text-center mt-5">Innovative and Smart System</h3>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; During my first year at INSA Toulouse, I learned about the orientation and possible cursus that I could follow in the school. 
+                Innovative and Smart System (ISS) was promoted as being a pluridisciplinary major, between computer science and electronic, in which projects and practical application would be lead.
+                Being curious and interested in the topics of electronics nonetheless, I thought of this cursus as being a good opportunity.
+                For this reason, I chose to follow the minor "Systèmes Communicants" in fourth year of my education. The courses were related to networks and telecommunication systems, and is the preferred path to join the ISS PTP.
+                <br>
+                After a few month in this formation, I find the topics really interesting, even though some are quite complex with my computer science background.
+                </p>
+
+                <h3 class="text-center mt-5">After the diploma</h3>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; I am still unsure of what I would like to do precisely once I finish school in late 2025. 
+                Through my internships and my apprenticeship, I found interest in software and web development, and might find pleasure to continue in these field.
+                Even though it might not have a direct link with my least year of education, I think my acquired knowledge about networks, telecommunication and connected objects might still be an interesting addition in some specific task I might later have.
+                </p>
             </v-col>
-            <v-col >
+            <v-col class="align-center">
                 <img src="..\assets\images\personnel\Logo_Work.png" width="100%">
             </v-col>
         </v-row>
+        
+        <!--INTERESTS SECTION-->
         <v-row :style='"margin-bottom: "+marge+"px;"'>
             <v-col >
                 <img src="..\assets\images\personnel\Logo_Interest.png" width="100%">
             </v-col>
             <v-col  cols="8"  class="my-auto">
-                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-right">Centre d'intérêts</v-sheet>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-right">Points of Interest</v-sheet>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; This section will focus around some of my passion. Though the main formation is important, it is around the passion and hobbies that it is possible to experiment and learn autonomy.
+                This is why I think this section is important.
+                </p>
+
+                <h3 class="text-center mt-5">Game development</h3>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; Game development is one of my passion, and many aspects of my life revolve around it.
+                I am a long-time player, especially various management and strategy games, and it is a dream of mine to one day be able to create a game that someone would enjoy as much as I enjoyed playing other's games!
+                Some of the activities that I had around game development
+                </p>
+                <ul>
+                    <li class="text-justify"><b>My freelance activity as Pixel-artist</b>: Since 2020, I am working as a freelance, to help independant game developers to create the visuals of their games. 
+                        I had the chance to be part of some large projects, such as <a href="https://www.kickstarter.com/projects/jeffreyha/l2-speak">L2 Speak</a> or <a href="https://store.steampowered.com/app/2842880/Vox_Populi_Europa_2024/">Vox Populi</a></li>
+                    <li class="text-justify"><b>Game jams</b>: With some of my friends or sometimes strangers, I had the opportunity to participate to game jams as graphic artist or developer. 
+                        A game jam is the idea of conceiving a game or concept of a game in a limited time: a week-end, two weeks, two month...</li>
+                    <li class="text-justify"><b>Teaching in a club</b>: With the help of the Club Info of the INSA Toulouse, I was able to teach to a couple of student to learn the basics to use game development software such as Unity or Godot.</li>
+                </ul>
+                <h3 class="text-center mt-5">Do It Yourself</h3>
+                <p class="text-justify">
+                &nbsp;&nbsp;&nbsp;&nbsp; I am a creative person, and I like to explore new media to discover and create, such as drawing, painting, crochet, cross-stitching, digital art, 3D printing, clay modelling... and many more!
+                </p>
+
             </v-col>
         </v-row>
+
+        <!--CONTACT SECTION-->
         <v-row :style='"margin-bottom: "+marge+"px;"'>
             <v-col >
-                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-center">Contact</v-sheet>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-center">Contacts</v-sheet>
+                
+                <v-row class="justify-center ga-6">
+                    <ContactButton color="primary" href="mailto:brunetto.marie@gmail.com" icon="mdi-mail" hoverText="Send mail to brunetto.marie@gmail.com"/>
+                    <ContactButton color="secondary" href="https://github.com/Pepotrouille" icon="mdi-github" hoverText="Visit my Github: Pepotrouille"/>
+                    <ContactButton color="info" href="https://www.linkedin.com/in/marie-brunetto/" icon="mdi-linkedin" hoverText="Visit my Linkedin: Marie Brunetto"/>
+                    <ContactButton color="primary" href="..\..\public\documents\CV_Marie_Brunetto_Avril_2024.pdf" icon="mdi-file-account-outline" hoverText="Download my Resume"/>
+                </v-row>
+                
+                
             </v-col>
         </v-row>
     </v-container>
 </template>
 
 <script lang="ts">
-    import TimelineFormation from './personnel/TimelineFormation.vue';
+    import TimelineEducation from './personnel/TimelineEducation.vue';
+    import ContactButton from './personnel/ContactButton.vue';
     
     export default {
         components: {
-            TimelineFormation,
+            TimelineEducation,
+            ContactButton,
         },
         data() {
             return {
