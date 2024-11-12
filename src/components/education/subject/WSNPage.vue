@@ -32,6 +32,8 @@
     <!---->
     <h3>Analysis</h3>
 
+    <SkillMatrix :skillMatrix="skillMatrixWSN"/>
+
 
     <PDFReader path="./documents/reports/Rapport_WSN-Biendou-Bigot-Brunetto-Marcé.pdf"
             title="Report - Sigfox technology" 
@@ -56,7 +58,7 @@
     export default {
         data() {
             return {
-                skill_matrix: [ {skill: "Unknown", expected: 0, estimated: 0},
+                skillMatrixWSN: [ {skill: "Unknown", expected: 0, estimated: 0},
                                 ]
             }
         },

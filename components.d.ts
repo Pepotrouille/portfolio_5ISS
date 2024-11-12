@@ -7,6 +7,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    5GTechnoPage: typeof import('./src/components/education/subject/5GTechnoPage.vue')['default']
     BackButton: typeof import('./src/components/education/subject/elements/BackButton.vue')['default']
     CloudComputingPage: typeof import('./src/components/education/subject/CloudComputingPage.vue')['default']
     ContactButton: typeof import('./src/components/personnel/ContactButton.vue')['default']
@@ -14,21 +15,28 @@ declare module 'vue' {
     EmbeddedAIPage: typeof import('./src/components/education/subject/EmbeddedAIPage.vue')['default']
     EnergyConnectedObjects: typeof import('./src/components/education/subject/EnergyConnectedObjects.vue')['default']
     Experience: typeof import('./src/components/Experience.vue')['default']
+    FiveGTechnoPage: typeof import('./src/components/education/subject/FiveGTechnoPage.vue')['default']
     Formation: typeof import('./src/components/Formation.vue')['default']
     ImageSubject: typeof import('./src/components/education/subject/elements/ImageSubject.vue')['default']
+    InnoProjectPage: typeof import('./src/components/education/subject/InnoProjectPage.vue')['default']
     MainPage: typeof import('./src/components/MainPage.vue')['default']
+    MiddlewarePage: typeof import('./src/components/education/subject/MiddlewarePage.vue')['default']
     PDFReader: typeof import('./src/components/education/subject/elements/PDFReader.vue')['default']
     Personal: typeof import('./src/components/Personal.vue')['default']
+    Portfolio: typeof import('./src/components/education/subject/Portfolio.vue')['default']
+    PortfolioPage: typeof import('./src/components/education/subject/PortfolioPage.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SecurityIoTPage: typeof import('./src/components/education/subject/SecurityIoTPage.vue')['default']
     SiteFooter: typeof import('./src/components/SiteFooter.vue')['default']
     SiteHeader: typeof import('./src/components/SiteHeader.vue')['default']
+    SkillMatrix: typeof import('./src/components/education/subject/elements/SkillMatrix.vue')['default']
     SmartDevicesPage: typeof import('./src/components/education/subject/SmartDevicesPage.vue')['default']
     TimelineEducation: typeof import('./src/components/personnel/TimelineEducation.vue')['default']
     TimelineFormation: typeof import('./src/components/personnel/TimelineFormation.vue')['default']
     TitlesSubject: typeof import('./src/components/education/subject/elements/TitlesSubject.vue')['default']
     TitleSubject: typeof import('./src/components/education/subject/elements/TitleSubject.vue')['default']
+    WirelessCommPage: typeof import('./src/components/education/subject/WirelessCommPage.vue')['default']
     WSNPage: typeof import('./src/components/education/subject/WSNPage.vue')['default']
   }
 }

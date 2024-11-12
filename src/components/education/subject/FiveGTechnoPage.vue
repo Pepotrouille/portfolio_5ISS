@@ -1,7 +1,7 @@
 <template>
-    <BackButton @change-content="ChangeContent" color="secondary" class="mb-4"/>
+    <BackButton @change-content="ChangeContent" color="primary" class="mb-4"/>
     
-    <TitleSubject title="EMBEDDED AI" teacher="Philippe Leleux" color="secondary"/>
+    <TitleSubject title="5G TECHNOLOGIES" teacher="Etienne Sicard" color="primary"/>
 
     <!---->
     <h3>Description of the subject</h3>
@@ -21,15 +21,9 @@
         <br>
     </p>
 
-    <SkillMatrix :skillMatrix="skillMatrixEmbAI"/>
-    
+    En construction
 
-
-
-  En construction
-
-<!---->
-<ImageSubject imagePath="./images/pika.jpg" description="Figure 1 - Test" color="secondary"/>
+    <SkillMatrix :skillMatrix="skillMatrixFiveG"/>
 
 
 </template>
@@ -39,7 +33,7 @@
     export default {
         data() {
             return {
-                skillMatrixEmbAI: [ {skill: "Unknown", expected: 0, estimated: 0},
+                skillMatrixFiveG: [ {skill: "Unknown", expected: 0, estimated: 0},
                                 ]
             }
         },

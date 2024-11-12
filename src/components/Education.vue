@@ -30,7 +30,7 @@
             </v-col>
         </v-row>
         <v-row class="mx-8 d-flex justify-center">
-            <v-btn v-for="name in siIoTList" :key="name" class="ma-2 pa-2 bg-primary" width="60%">{{name}}</v-btn>
+            <v-btn v-for="item in siIoTItems" :key="item.id" class="ma-2 pa-2 bg-primary" width="60%" @click="ChangeContent(item.path)">{{item.name}}</v-btn>
         </v-row>
         <v-row class="mt-16">
             <v-col>
@@ -40,7 +40,7 @@
             </v-col>
         </v-row>
         <v-row class="mx-8 d-flex justify-center">
-            <v-btn v-for="name in transversalList" :key="name" class="ma-2 pa-2 bg-info" width="60%">{{name}}</v-btn>
+            <v-btn v-for="item in transversalItems" :key="item.id" class="ma-2 pa-2 bg-info" width="60%" @click="ChangeContent(item.path)">{{item.name}}</v-btn>
         </v-row>
     </v-container>
     <v-container v-else>
@@ -50,11 +50,17 @@
 
 <script lang="ts">
     import WSNPage from './education/subject/WSNPage.vue';
-    import CloudComputingPage from './education/subject/CloudComputingPage.vue';
     import SmartDevicesPage from './education/subject/SmartDevicesPage.vue';
     import EmbeddedAIPage from './education/subject/EmbeddedAIPage.vue';
     import SecurityIoTPage from './education/subject/SecurityIoTPage.vue';
     import EnergyConnectedObjects from './education/subject/EnergyConnectedObjects.vue';
+
+    import WirelessCommPage from './education/subject/WirelessCommPage.vue';
+    import FiveGTechnoPage from './education/subject/FiveGTechnoPage.vue';
+    import MiddlewarePage from './education/subject/MiddlewarePage.vue';
+
+    import InnoProjectPage from './education/subject/InnoProjectPage.vue';
+    import PortfolioPage from './education/subject/PortfolioPage.vue';
 
     //Changer en classes pour avoir couleur, titres et listes
     export default {
@@ -67,11 +73,19 @@
                 currentPage: 'Main', // Default template
                 scIoTItems: [
                     { id: 1, name: "Wireless Sensors Network", path: WSNPage },
-                    { id: 2, name: "??Cloud and Edge Computing??", path: CloudComputingPage },
                     { id: 3, name: "Smart Devices", path: SmartDevicesPage },
                     { id: 4, name: "Embedded AI for IoT", path: EmbeddedAIPage },
                     { id: 5, name: "Security for IoT", path: SecurityIoTPage },
                     { id: 6, name: "Energy for Connected Objects", path: EnergyConnectedObjects },
+                ],
+                siIoTItems: [
+                    { id: 7, name: "Wireless Communication", path: WirelessCommPage },
+                    { id: 8, name: "5G Technologies", path: FiveGTechnoPage },
+                    { id: 9, name: "Middleware and Services", path: MiddlewarePage },
+                ],
+                transversalItems: [
+                    { id: 10, name: "Innovative Project", path: InnoProjectPage },
+                    { id: 11, name: "Portfolio", path: PortfolioPage },
                 ],
             };
         },

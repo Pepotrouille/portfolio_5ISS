@@ -19,6 +19,8 @@ const myCustomLightTheme = {
     'surface-darken-1': '#f4f1de',
     'surface-darken-2': '#f0e7d1',
     'surface-darken-3': '#ebdbc1',
+    'surface-darken-4': '#d1bca2',
+    'surface-darken-5': '#c8a18c',
     primary: '#81b29a',
     'primary-darken-1': '#6f9e8a',
     'primary-darken-2': '#5f8f7d',

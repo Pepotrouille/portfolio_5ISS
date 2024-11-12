@@ -2,7 +2,7 @@
     <BackButton @change-content="ChangeContent" color="secondary" class="mb-4"/>
     
     
-    <TitleSubject title="SMART DEVICES" teacher="Unknown" color="primary"/>
+    <TitleSubject title="SMART DEVICES" teacher="Unknown" color="secondary"/>
 
     <!---->
     <h3>Description of the subject</h3>
@@ -22,26 +22,9 @@
         <br>
     </p>
 
-    <v-table class="bg-surface-darken-3">
-    <thead>
-      <tr>
-        <th class="text-left">Skill</th>
-        <th class="text-left">Expected</th>
-        <th class="text-left">Estimated</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr
-        v-for="item in skill_matrix"
-        :key="item.skill"
-      >
-        <td>{{ item.skill }}</td>
-        <td>{{ item.expected }}</td>
-        <td>{{ item.estimated }}</td>
-      </tr>
-    </tbody>
-  </v-table>
+    <SkillMatrix :skillMatrix="skillMatrixIntroSensor" title="Introduction to Sensors"/>
 
+    <SkillMatrix :skillMatrix="skillMatrixMicroContro" title="Micro Controlleurs"/>
 
 
         En construction
@@ -54,7 +37,16 @@
     export default {
         data() {
             return {
-                skill_matrix: [ {skill: "Unknown", expected: 0, estimated: 0},
+                skillMatrixIntroSensor: [ {skill: "Understand basic notions of sensors, data acquisition: physics, electronics and metrology point of view", expected: 4, estimated: 0},
+                                          {skill: "Be able to manufacture a nano-particles sensor using micro-electronics tools: chemical synthesis, assembly, testing", expected: 4, estimated: 0},
+                                          {skill: "Be able to design the datasheet of the sensor manufactured", expected: 3, estimated: 0},
+                                ],
+                skillMatrixMicroContro: [ {skill: "Understand microcontroller archictecture and how to use them", expected: 3, estimated: 0},
+                                          {skill: "Be able to design data acquisition system (sensor, conditioner, microcontroller) with respect to the application", expected: 3, estimated: 0},
+                                          {skill: "Be able to design the electronic circuit of a sensor's signal conditioner (design + simulation)", expected: 3, estimated: 0},
+                                          {skill: "Be able to design a shield to accommodate the gas sensor", expected: 3, estimated: 0},
+                                          {skill: "Be abe to design the sofware to use the gas sensor and its HMI", expected: 4, estimated: 0},
+                                          {skill: "Be able to combine all of the above mentioned components into a smart device", expected: 3, estimated: 0},
                                 ]
             }
         },

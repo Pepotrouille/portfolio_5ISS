@@ -1,7 +1,7 @@
 <template>
-    <BackButton @change-content="ChangeContent" color="secondary" class="mb-4"/>
+    <BackButton @change-content="ChangeContent" color="info" class="mb-4"/>
     
-    <TitleSubject title="ENERGY FOR CONNECTED OBJECTS" teacher="Gaël Loubet" color="secondary"/>
+    <TitleSubject title="PORTFOLIO" teacher="Gaël Loubet" color="info"/>
 
     <!---->
     <h3>Description of the subject</h3>
@@ -23,15 +23,7 @@
 
     En construction
 
-    <SkillMatrix :skillMatrix="skillMatrixEnergy"/>
-
-    <!---->
-    <PDFReader  path="./documents/reports/Report_Energy-Brunetto-Biendou.pdf" 
-                title="Report - Lab courses" 
-                language="English" 
-                madeBy="Marie BRUNETTO, Brian BIENDOU"
-                color="secondary"/>
-
+    <SkillMatrix :skillMatrix="skillMatrixPortfolio"/>
 
 
 </template>
@@ -41,8 +33,10 @@
     export default {
         data() {
             return {
-              skillMatrixEnergy: [ {skill: "Unknown", expected: 0, estimated: 0},
-                                ]
+                skillMatrixPortfolio: [ {skill: "Reflect upon my training process and methods", expected: 4, estimated: 0},
+                                        {skill: "Be able to put forward my training experiences, whether they be explicit or implicit", expected: 4, estimated: 0},
+                                        {skill: "Be self-sufficient and responsible towards my education", expected: 4, estimated: 0},
+                                      ]
             }
         },
         name: 'TemplateButtons',

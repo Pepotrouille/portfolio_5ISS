@@ -1,7 +1,7 @@
 <template>
-    <BackButton @change-content="ChangeContent" color="secondary" class="mb-4"/>
+    <BackButton @change-content="ChangeContent" color="primary" class="mb-4"/>
     
-    <TitleSubject title="EMBEDDED AI" teacher="Philippe Leleux" color="secondary"/>
+    <TitleSubject title="WIRELESS COMMUNICATION" teacher="Slim Abdellatif" color="primary"/>
 
     <!---->
     <h3>Description of the subject</h3>
@@ -21,26 +21,23 @@
         <br>
     </p>
 
-    <SkillMatrix :skillMatrix="skillMatrixEmbAI"/>
-    
+    En construction
 
-
-
-  En construction
-
-<!---->
-<ImageSubject imagePath="./images/pika.jpg" description="Figure 1 - Test" color="secondary"/>
+    <SkillMatrix :skillMatrix="skillMatrixLPWAN"/>
 
 
 </template>
 
 <script lang="ts">
 
+
     export default {
         data() {
             return {
-                skillMatrixEmbAI: [ {skill: "Unknown", expected: 0, estimated: 0},
-                                ]
+                skillMatrixLPWAN: [ {skill: "Unknown", expected: 0, estimated: 0},
+                                  ],
+                skillMatrixEmerging: [  {skill: "Unknown", expected: 0, estimated: 0},
+                                  ],
             }
         },
         name: 'TemplateButtons',
