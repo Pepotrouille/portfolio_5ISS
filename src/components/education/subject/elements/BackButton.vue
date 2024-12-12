@@ -1,6 +1,6 @@
 <template>
 
-    <v-row class="justify-center">
+    <v-row class="text-justify">
         <v-btn @click="ChangeContent(null)" prepend-icon="mdi-arrow-left-thick" :color="color" variant="outlined" >Back to Education</v-btn>
     </v-row>
     

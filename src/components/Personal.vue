@@ -107,7 +107,7 @@
             <v-col >
                 <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-center">Contacts</v-sheet>
                 
-                <v-row class="justify-center ga-6">
+                <v-row class="text-justify ga-6">
                     <ContactButton color="primary" href="mailto:brunetto.marie@gmail.com" icon="mdi-mail" hoverText="Send mail to brunetto.marie@gmail.com"/>
                     <ContactButton color="secondary" href="https://github.com/Pepotrouille" icon="mdi-github" hoverText="Visit my Github: Pepotrouille"/>
                     <ContactButton color="info" href="https://www.linkedin.com/in/marie-brunetto/" icon="mdi-linkedin" hoverText="Visit my Linkedin: Marie Brunetto"/>

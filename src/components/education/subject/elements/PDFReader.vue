@@ -6,11 +6,11 @@
             </v-expansion-panel-title>
             <v-expansion-panel-text >
                 <v-sheet color="surface-darken-1" class="pt-10 px-5">
-                    <v-row v-if="language != null" :class="'justify-center text-' + color ">
+                    <v-row v-if="language != null" :class="'text-justify text-' + color ">
                         <p><b>Language:</b> {{language}}</p>
                     </v-row>
 
-                    <v-row v-if="madeBy != null" :class="'justify-center text-' + color ">
+                    <v-row v-if="madeBy != null" :class="'text-justify text-' + color ">
                         <p><b>Made by:</b> {{madeBy}}</p>
                     </v-row>
 
