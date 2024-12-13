@@ -63,7 +63,7 @@
     <!---->
     <h3>Analysis</h3>
     <p class="text-justify my-5">
-        In conclusion, this class has been a good opportunity to have an overview of the 5G technologies, other GSM technologies, and the application of all of them.
+        &nbsp;&nbsp;&nbsp;&nbsp; In conclusion, this class has been a good opportunity to have an overview of the 5G technologies, other GSM technologies, and the application of all of them.
         It deepend my understanding of how these technologies could be used in IoT or embedded system. 
         <br>
         It was also a way to improve my ease during oral presentation and my capacity to research a subject for that purpose.
@@ -84,8 +84,6 @@
 </template>
 
 <script lang="ts">
-import PDFReader from './elements/PDFReader.vue';
-
 
     export default {
         data() {

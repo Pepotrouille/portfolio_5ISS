@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "homepage": "https://pepotrouille.github.io/portfolio_5ISS/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",

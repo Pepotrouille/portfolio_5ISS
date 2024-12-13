@@ -29,7 +29,7 @@
   En construction
 
 <!---->
-<ImageSubject imagePath="./images/pika.jpg" description="Figure 1 - Test" color="secondary"/>
+<ImageSubject imagePath="./images/pika.jpg" description="Figure 1 - Test" color="secondary" width_percent="50"/>
 
 
 </template>
