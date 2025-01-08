@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     5GTechnoPage: typeof import('./src/components/education/subject/5GTechnoPage.vue')['default']
+    Apprenticeship: typeof import('./src/components/experience/Apprenticeship.vue')['default']
     BackButton: typeof import('./src/components/education/subject/elements/BackButton.vue')['default']
     CloudComputingPage: typeof import('./src/components/education/subject/CloudComputingPage.vue')['default']
     ContactButton: typeof import('./src/components/personnel/ContactButton.vue')['default']
@@ -17,8 +18,11 @@ declare module 'vue' {
     Experience: typeof import('./src/components/Experience.vue')['default']
     FiveGTechnoPage: typeof import('./src/components/education/subject/FiveGTechnoPage.vue')['default']
     Formation: typeof import('./src/components/Formation.vue')['default']
+    Freelance: typeof import('./src/components/experience/Freelance.vue')['default']
     ImageSubject: typeof import('./src/components/education/subject/elements/ImageSubject.vue')['default']
     InnoProjectPage: typeof import('./src/components/education/subject/InnoProjectPage.vue')['default']
+    Internship2023: typeof import('./src/components/experience/Internship2023.vue')['default']
+    Internship2024: typeof import('./src/components/experience/Internship2024.vue')['default']
     MainPage: typeof import('./src/components/MainPage.vue')['default']
     MiddlewarePage: typeof import('./src/components/education/subject/MiddlewarePage.vue')['default']
     PDFReader: typeof import('./src/components/education/subject/elements/PDFReader.vue')['default']

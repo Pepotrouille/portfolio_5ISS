@@ -61,6 +61,7 @@
         It was interesting to look at each subject and ask myself how it is and could be used through my project, whether they professional or personal.
         It was also a good opportunity to question myself about how much a lesson was understood, and if I felt like this subject was mastered, understood or lacking o comprehension. 
         I also learned that it is important to evaluate the amount of work in advance, especially when it comes to a long term project such as the portfolio.
+        I had some difficulties timing myself for the work, and a more riourous planning could be preferred.
         Finally, it was also a good opportunity to apply knowledge about development I learned throughout the years, and to be able to show it through a fully functionning online portfolio.
     </p>
 

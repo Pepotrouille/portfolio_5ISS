@@ -7,11 +7,18 @@
     <!---->
     <h3>Description of the subject</h3>
     <p class="text-justify my-5">
-        In this subject, we explore the concept of Wireless Sensor Networks through it specificities. 
-        The objective of this course is to have the knowledge to choose the proper technology depending of the needs of the networks.
-        <br>
-        
+        The Wireless Sensor Networks (WSN) was divided into two main parts:
     </p>
+        <ul class="text-justify ml-10">
+            <li><b>A theoretical part</b>, in which we had the opportunity to learn more about protocoles and technologies used for IoT and WSN.
+                This part was a reminder of some previous years lessons about modulation and communication.
+                Through student-made presentations, we could learn about protocols such as LoRA, Sigfox, BLE, ZigBee, NB-IoT and M2M, but also about protocols specific to the MAC layer.
+            </li>
+            <li><b>A practical part</b>, where we need to imagine a situation of a network of wireless sensors.
+                By group of 5, we needed to explain what better choice would be for the physical and MAC layers, with a light implementation.
+            </li>
+        </ul>
+
     
     <!---->
     <h3>Realisation</h3>
@@ -31,6 +38,11 @@
 
     <!---->
     <h3>Analysis</h3>
+        &nbsp;&nbsp;&nbsp;&nbsp; This lesson was an interesting opportunity to learn more about numerous protocoles.
+        Through the practical part, it was also a really good opportunity to deliberate about the choice that we need to make when conceiving an network of sensors.
+        The reflexion relying on our understanding and knowledge, I think it is an interesting course to be introduced to the kind of reflexion we might have in a work environment.
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; However, the practical part did not offer enough time to have a proper implementation and test the viability of our choices of implementations.
 
     <SkillMatrix :skillMatrix="skillMatrixWSN"/>
 
