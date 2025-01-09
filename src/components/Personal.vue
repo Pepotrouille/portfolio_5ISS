@@ -44,16 +44,19 @@
                 <h3 class="text-center mt-5">INSA Toulouse</h3>
                 <p class="text-justify">
                 &nbsp;&nbsp;&nbsp;&nbsp; Through a Scientific Baccalaureat with IT options, I aimed to join a school to teach me more about computer science.
-                Thereby, I joined INSA Toulouse for its renowned courses about this specific subject, I followed the correponding cursus from the first year of "Formation Initiale" to the last year of engineering cycle, first through "Modélisation Informatique et Communication", or MIC, and then through "Informatique et Réseaux", or IR. 
+                Thereby, I joined INSA Toulouse for its renowned courses about this specific subject, I followed the corresponding cursus from the first year of "Formation Initiale" to the last year of engineering cycle, first through "Modélisation Informatique et Communication", or MIC, and then through "Informatique et Réseaux", or IR. 
                 </p>
 
                 <h3 class="text-center mt-5">Innovative and Smart System</h3>
                 <p class="text-justify">
-                &nbsp;&nbsp;&nbsp;&nbsp; During my first year at INSA Toulouse, I learned about the orientation and possible cursus that I could follow in the school. 
+                &nbsp;&nbsp;&nbsp;&nbsp; During my first year at INSA Toulouse, I learned about the different orientations and possible cursus that I could follow in the school. 
                 Innovative and Smart System (ISS) was promoted as being a pluridisciplinary major, between computer science and electronic, in which projects and practical application would be lead.
                 Being curious and interested in the topics of electronics nonetheless, I thought of this cursus as being a good opportunity.
-                For this reason, I chose to follow the minor "Systèmes Communicants" in fourth year of my education. The courses were related to networks and telecommunication systems, and is the preferred path to join the ISS PTP.
-                <br>
+                As I have a better affinity with computer science, I chose to follow the Informatique et Réseaux (IR) cursus.
+                In fourth year, a specialization was proposed between communicating system, "Systèmes Communicants", or computer system, "Systèmes Informatique". 
+                My curiosity lead me to chose communicating system, as it would be a good opportunity to deepen new subjects in networks and telecommunications.
+                This was also the preferred path to join the ISS PTP, that I was planning to join
+                <br><br>
                 After a few month in this formation, I find the topics really interesting, even though some are quite complex with my computer science background.
                 </p>
 

@@ -39,7 +39,11 @@
     export default {
         data() {
             return {
-                skillMatrixEmbAI: [ {skill: "Unknown", expected: 0, estimated: 0},
+                skillMatrixEmbAI: [ {skill: "Understand the characteristics of supervised and unsupervised learning problems.", expected: 4, estimated: 0},
+                                    {skill: "Understand the main basic methods and algorithms to deal with these problems.", expected: 4, estimated: 0},
+                                    {skill: "Understand the specificities of AI at the edge.", expected: 4, estimated: 0},
+                                    {skill: "Understand The main optimization methods enabling the embedding of AI algorithms.", expected: 4, estimated: 0},
+                                    {skill: "Be able to use these methods through Python libraries to solve practical problems with IoT data.", expected: 4, estimated: 0},
                                 ]
             }
         },
