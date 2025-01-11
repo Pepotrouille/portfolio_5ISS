@@ -133,6 +133,13 @@
             It was also a good experience to work in a German environment, and to learn about cultural differences in work and everyday life.
             </li>
     </ul>
+    <h4>Overall opinion</h4>
+    <p class="text-justify my-5">
+        To conclude, this internship was a great first step in the world of web development.
+        This convinced me that web development is a field that I could like to work in.
+        I was able to apply my knowledge in a real project, and to learn new technologies about conception and deployement of a website.
+        The work environment was also very pleasant, and I was able to learn a lot about the work in a big international company.
+    </p>
     
 </template>
 

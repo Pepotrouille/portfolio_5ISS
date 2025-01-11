@@ -41,8 +41,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp; This lesson was an interesting opportunity to learn more about numerous protocoles.
         Through the practical part, it was also a really good opportunity to deliberate about the choice that we need to make when conceiving an network of sensors.
         The reflexion relying on our understanding and knowledge, I think it is an interesting course to be introduced to the kind of reflexion we might have in a work environment.
-        <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp; However, the practical part did not offer enough time to have a proper implementation and test the viability of our choices of implementations.
+        However, the practical part did not offer enough time to have a proper implementation and test the viability of our choices of implementations.
 
     <SkillMatrix :skillMatrix="skillMatrixWSN"/>
 

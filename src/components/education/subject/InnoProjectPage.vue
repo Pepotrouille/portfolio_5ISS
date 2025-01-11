@@ -25,8 +25,16 @@
     En construction
 
     <SkillMatrix :skillMatrix="skillMatrixIP"/>
+<!--Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot-->
 
+    <!---->
+    <PDFReader  path="./documents/reports/Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot.pdf" 
+                title="Report - Energetic Part" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
 
+                
 </template>
 
 <script lang="ts">
