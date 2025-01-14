@@ -10,7 +10,7 @@
         The Wireless Sensor Networks (WSN) was divided into two main parts:
     </p>
         <ul class="text-justify ml-10">
-            <li><b>A theoretical part</b>, in which we had the opportunity to learn more about protocoles and technologies used for IoT and WSN.
+            <li><b>A theoretical part</b>, in which we had the opportunity to learn more about protocols and technologies used for IoT and WSN.
                 This part was a reminder of some previous years lessons about modulation and communication.
                 Through student-made presentations, we could learn about protocols such as LoRA, Sigfox, BLE, ZigBee, NB-IoT and M2M, but also about protocols specific to the MAC layer.
             </li>
@@ -21,14 +21,14 @@
 
     
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
     In addition to the lessons we were given two tasks:
     </p>
 
         <ul class="text-justify ml-10">
-            <li>We first informed ourselves on a choosen protocol used for wireless sensor networks, such as LoRA, Sigfox, BLE, ZigBee, NB-IoT and M2M. It is a group study, resulting in a report and presentation</li>
-            <li>Then, we had the oportunity to deepen our knowledge concerning MAC protocols used for the same context.</li>
+            <li>We first informed ourselves on a chosen protocol used for wireless sensor networks, such as LoRA, Sigfox, BLE, ZigBee, NB-IoT and M2M. It is a group study, resulting in a report and presentation</li>
+            <li>Then, we had the opportunity to deepen our knowledge concerning MAC protocols used for the same context.</li>
         </ul>
 
     <p class="text-justify my-5">
@@ -38,9 +38,9 @@
 
     <!---->
     <h3>Analysis</h3>
-        &nbsp;&nbsp;&nbsp;&nbsp; This lesson was an interesting opportunity to learn more about numerous protocoles.
+        &nbsp;&nbsp;&nbsp;&nbsp; This lesson was an interesting opportunity to learn more about numerous protocols.
         Through the practical part, it was also a really good opportunity to deliberate about the choice that we need to make when conceiving an network of sensors.
-        The reflexion relying on our understanding and knowledge, I think it is an interesting course to be introduced to the kind of reflexion we might have in a work environment.
+        The reflection relying on our understanding and knowledge, I think it is an interesting course to be introduced to the kind of reflection we might have in a work environment.
         However, the practical part did not offer enough time to have a proper implementation and test the viability of our choices of implementations.
 
     <SkillMatrix :skillMatrix="skillMatrixWSN"/>

@@ -18,7 +18,7 @@
 
 
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; This class had labs sessions where we had to implement the concepts of MQTT and oneM2M.
         The first two labs were about MQTT. We had to create a simple application that would publish and subscribe to a topic.
@@ -28,10 +28,10 @@
         <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp; The third lab was about oneM2M. 
         It first consisted in an initiation through a Jupiter Notebook where we could get familiar with the oneM2M protocol and requests.
-        We then had to simulate the previous MQTT application using the oneM2M standards, more previsely through an ACME server.
+        We then had to simulate the previous MQTT application using the oneM2M standards, more precisely through an ACME server.
         With Jupiter Notebook capacities, we were able to create four thread to simulate the system: one for the broker, one for the button, one for the light and one for the ACME server.
         <br><br>
-        The last lab was about the deployement using NodeRed.
+        The last lab was about the deployment using NodeRed.
         Unfortunately, due to delay in the previous lab, we were not able to work much on this part.
     </p>
 
@@ -71,10 +71,10 @@
     </p>
 
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; To apply the knowledge we had on SOA, we had to create a project that would use the concept of Service Architecture.
-        The goal of the project was to create an application that would bring together people that could recquire help in their everyday life with volunteers.
+        The goal of the project was to create an application that would bring together people that could require help in their everyday life with volunteers.
         This application had to be written using java, on the Eclipse IDE.
         This project was divided in four parts:
     </p>
@@ -84,7 +84,7 @@
             <li><b>REST</b>. We then created a service using the default REST present in our Maven project, Jersey.</li>
             <li><b>Micro Services</b>. For the final part, we had to develop all the relevant microservices for the application to be functional.
                 By using the Spring library, we were able to make the end microservices, as well as the configuration and discovery services.</li>
-            <li><b>Deployement</b>. A final step was to deploy one of the service on a cloud platform, Microsoft Azure in this exercise.</li>
+            <li><b>Deployment</b>. A final step was to deploy one of the service on a cloud platform, Microsoft Azure in this exercise.</li>
         </ul>
     <p class="text-justify my-5">
         For the structure, our application was composed of three main services.
@@ -92,7 +92,7 @@
         <ul class="text-justify ml-10">
             <li>The first one was the <b>user service</b>, that manages the users of the application. They can be volunteers, help seekers, administrators or checkers. This class contains the necessary contact information.</li>
             <li>The second one was a <b>post service</b>, that manages the posts of the users, wether they are volunteers or help seekers. It contains the description and author of the post.</li>
-            <li>The final one was the <b>assignement service</b>, that assigns the current status of a user responding to a post, whether it is to give or get help.</li>
+            <li>The final one was the <b>assignment service</b>, that assigns the current status of a user responding to a post, whether it is to give or get help.</li>
         </ul>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; Finally, another project was lead where we had to create another project.
@@ -107,7 +107,7 @@
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; To conclude, I think that this course was really interesting and gave me a good insight on how to create a service architecture.
         I was able to understand the concept of microservices and how they can be used in a real application.
-        Using the same subject as the previous year also helped me to see multiple solutions for a same problem, with the advantages and inconvenients of each.
+        Using the same subject as the previous year also helped me to see multiple solutions for a same problem, with the advantages and inconvenient of each.
         REST is an omnipresent protocol in the web development industry. 
         As it is a domain I would like to go towards, it is important to have a good understanding of it.
         For this reason, I found the projects really interesting and useful.
@@ -150,14 +150,14 @@
         </ul>
 
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; To exercise our new knowledge about virtualization, we had six lab sessions to familiarize ourselves with the creation and manipulation of virtual machines and containers.
         To proceed, we used three tools: 
     </p>
         <ul class="text-justify ml-10">
             <li><b>VirtualBox</b> is a software that can be used to operate,</li>
-            <li><b>Docker</b>, a well-known containerisation manager,</li>
+            <li><b>Docker</b>, a well-known containerization manager,</li>
             <li><b>Openstack</b>, an online cloud computing platform, on which we were able to manage virtual machines as well as the networks on which they operate on.</li>
         </ul>
     <p class="text-justify my-5">

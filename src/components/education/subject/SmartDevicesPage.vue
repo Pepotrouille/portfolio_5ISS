@@ -24,7 +24,7 @@
 
     <SkillMatrix :skillMatrix="skillMatrixIntroSensor" title="Introduction to Sensors"/>
 
-    <SkillMatrix :skillMatrix="skillMatrixMicroContro" title="Micro Controlleurs"/>
+    <SkillMatrix :skillMatrix="skillMatrixMicroContro" title="Micro Controllers"/>
 
 
         En construction
@@ -41,7 +41,7 @@
                                           {skill: "Be able to manufacture a nano-particles sensor using micro-electronics tools: chemical synthesis, assembly, testing", expected: 4, estimated: 0},
                                           {skill: "Be able to design the datasheet of the sensor manufactured", expected: 3, estimated: 0},
                                 ],
-                skillMatrixMicroContro: [ {skill: "Understand microcontroller archictecture and how to use them", expected: 3, estimated: 0},
+                skillMatrixMicroContro: [ {skill: "Understand microcontroller architecture and how to use them", expected: 3, estimated: 0},
                                           {skill: "Be able to design data acquisition system (sensor, conditioner, microcontroller) with respect to the application", expected: 3, estimated: 0},
                                           {skill: "Be able to design the electronic circuit of a sensor's signal conditioner (design + simulation)", expected: 3, estimated: 0},
                                           {skill: "Be able to design a shield to accommodate the gas sensor", expected: 3, estimated: 0},

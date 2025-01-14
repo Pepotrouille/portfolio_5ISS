@@ -8,7 +8,7 @@
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; The portfolio class is dedicated to the creation of the portfolio you are currently reading. 
         With a few class to present the subject and media to create this portfolio, we were rapidly able to start working.
-        The idea of this course is to give the student an opportunity to synthesised the different lessons and experience we had throught the year.
+        The idea of this course is to give the student an opportunity to synthesized the different lessons and experience we had through the year.
         The choice of the medium to present is open, for instance by using a pdf, a website or a github page. As long as it is possible to easily access and read the portfolio.
         <br>
         Each part must be divided into three part: 
@@ -16,13 +16,13 @@
     <ul class="text-justify ml-10">
         <li><b>A descriptive part</b>: this first part should describe the content of the course and the context in which it is given for our formation.</li>
         <li><b>A technical part</b>: this second part should present the work that was realized for this course, focusing on the difficulties and solutions that were used.</li>
-        <li><b>A analytical part</b>: this final part should explain the final result achieved after these lessons and the skills that we developped through it.</li>
+        <li><b>A analytical part</b>: this final part should explain the final result achieved after these lessons and the skills that we developed through it.</li>
     </ul>
     <p class="text-justify my-5">
     </p>
 
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; The first question that I asked to ask myself to create this portfolio was the choice of the medium.
         Among the ones that were presented , I add a preference for the website format, as I already have some minor experience using frameworks for web pages and wanted to improve my web development skills.
@@ -44,7 +44,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp; Once the web page done, I then needed to write their content.
         It took longer than expected to summarize each lesson, especially when it comes to analyzing.
         It was important to properly schedule the redaction of the portfolio, and a mistake I might have done would be to not start proper redaction before the end of November.
-        This delay is also due to the creation of the web page, that I wanted functionning and generic enough for me to not have to worry about code once I start writing.
+        This delay is also due to the creation of the web page, that I wanted functioning and generic enough for me to not have to worry about code once I start writing.
         After seeing the amount of work, I decided to have a better repartition of the work by setting a subject a day for different day of my planning.
         I also had to make sure that the lessons were finished or advanced enough so I could already have a global vision on what I have done and what it brought me.
 
@@ -61,8 +61,8 @@
         It was interesting to look at each subject and ask myself how it is and could be used through my project, whether they professional or personal.
         It was also a good opportunity to question myself about how much a lesson was understood, and if I felt like this subject was mastered, understood or lacking o comprehension. 
         I also learned that it is important to evaluate the amount of work in advance, especially when it comes to a long term project such as the portfolio.
-        I had some difficulties timing myself for the work, and a more riourous planning could be preferred.
-        Finally, it was also a good opportunity to apply knowledge about development I learned throughout the years, and to be able to show it through a fully functionning online portfolio.
+        I had some difficulties timing myself for the work, and a more rigorous planning could be preferred.
+        Finally, it was also a good opportunity to apply knowledge about development I learned throughout the years, and to be able to show it through a fully functioning online portfolio.
     </p>
 
     <SkillMatrix :skillMatrix="skillMatrixPortfolio"/>

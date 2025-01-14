@@ -9,7 +9,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp; Since 2020, I have been working as a freelance artist.
         Fiverr is an online platform that allows freelancers to offer their services to clients.
         Through this platform, I have offered my services in pixel art, mainly for video games animations or illustrations.
-        I have mainly been contacted by independent video game developers, who needed an occasionnal pixel artist for their project.
+        I have mainly been contacted by independent video game developers, who needed an occasional pixel artist for their project.
         Even though this activity is not directly related to my formation, I think my activity taught me some aspects of the professional world.
     </p>
     <h4>Communication with the client</h4>
@@ -31,7 +31,7 @@
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; As a freelance artist, I am self-employed.
         This means that I have to manage my own taxes, and to declare my income.
-        Most of my orders are comming from the platform Fiverr, but other can come from other sources, such as social networks or acquaintances.
+        Most of my orders are coming from the platform Fiverr, but other can come from other sources, such as social networks or acquaintances.
         I kept an excel to follow my clients orders and monthly income.
         </p>
     <!--<ImageSubject imagePath="./images/Internship2024_Relational_Diagram.png" description="Figure 4 - The class diagram of the database." color="primary" width_percent="60"/>-->
@@ -47,7 +47,7 @@
     <h4>Overall opinion</h4>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; Even though this activity is not directly related to my formation, I think it was a good experience.
-        Video game development is a field that I am passionate about, and to be able to work on some independant projects was a real pleasure.
+        Video game development is a field that I am passionate about, and to be able to work on some independent projects was a real pleasure.
         If I wished to continue in this field as a developer, to have experience as an artist would be a real asset.
     </p>
     

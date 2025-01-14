@@ -10,7 +10,7 @@
         My work experience took place in AVL Software and Design, a firm specialized in the conception of solution for the automobile industry.
         I was placed in the Process, Methods and Tools (PMT) division, aiming to develop intern tools for the development.
         I was more precisely in a team working in the development of work using Large Language Models, also known as LLM, a generative branch of Artificial Intelligence.
-        Current tools that were developped were axed around the management of requirements through diverse aspects, such as creation of specific ones or verification of their syntax.
+        Current tools that were developed were axed around the management of requirements through diverse aspects, such as creation of specific ones or verification of their syntax.
         <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp; For the three months I would pass in the company, a single main task was given to me: 
         Create a web application that will make possible for the user to quickly retrieve information from documents, those being sometimes numerous and confidential.
@@ -19,7 +19,7 @@
     </p>
 
     <!---->
-    <h3>Realisation</h3>
+    <h3>Realization</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; To create the application, the first step I needed to do was to get all the requirement for the application.
         The requirements were given by my manager as the following:
@@ -48,7 +48,7 @@
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; Once I finished informing myself on the main idea of RAG, I could start the development.
         I decided to start with the front end of the application by making the interface of the web application.
-        This would make me able to show the ideal implementation to my manager and some future users to ensure that no functionnalities is wrong or missing.
+        This would make me able to show the ideal implementation to my manager and some future users to ensure that no functionalities is wrong or missing.
         The development of the front end would continue with the implementation of the back end and the feedback of the users for three month.
         <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp; To develop the front end, the framework <a href="https://nicegui.io/">NiceGUI</a> has been used.
@@ -57,8 +57,8 @@
         NiceGUI relies on <a href="https://quasar.dev/">Quasar</a>, a Vue.js framework.
         Even though most of Quasar elements were implemented to be easily imported in python, some other were missing or had missing parameters.
         This limitation has been seen multiple times during the development, one of those being the implementation of a dynamic table.
-        NiceGUI did not implement all the functionnalities to update tables, and does not offer easy alternative. 
-        Overall, NiceGUI is a good framework for wweb applications, but shows serious limitations when it comes to template elements.
+        NiceGUI did not implement all the functionalities to update tables, and does not offer easy alternative. 
+        Overall, NiceGUI is a good framework for web applications, but shows serious limitations when it comes to template elements.
         <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp; For the interface itself, the final application was divided into three main tabs:  
     </p>
@@ -81,10 +81,10 @@
     <h4>Back End</h4>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; Once the front end was validated by my manager, I started working on the back end.
-        The RAG method requires the creation of a vector database to store the sementic vectors that will be used for fast retrieval.
+        The RAG method requires the creation of a vector database to store the semantic vectors that will be used for fast retrieval.
         At first, I decided to use <a href="https://qdrant.tech/">Qdrant</a>, because it has a python library to easily communicates with the API, and is widely used for RAG applications.
         However, with the development, we had the need to implement a regular database for user and documents management, and more control over the vectors.
-        For this reasons, we decided to migrate to an PostGreSQL database, using the python library psycopg.
+        For this reasons, we decided to migrate to an PostGreSQL database, using the python library <a href="https://www.psycopg.org/">psycopg</a>.
         PostgreSQL handle quite well vectors and PostGres implementations for RAG are emerging.
     </p>
     <ImageSubject imagePath="./images/Internship2024_Relational_Diagram.png" description="Figure 4 - The class diagram of the database." color="secondary" width_percent="60"/>
@@ -104,7 +104,7 @@
     </p>
     <h5>Object Oriented Programming (OOP)</h5>
     <p class="text-justify mb-5">
-        The front and back end of the application have been mad eusing python. 
+        The front and back end of the application have been made using python. 
         To ensure a proper implementation, it was essential to write clean code.
         The use of Object Oriented Programming allowed me to have a well structured code.
         It is also a good practice to ensure that the code will be comprehensible by the following programmer on the project.
@@ -121,8 +121,8 @@
         <li><b>Work experience</b>: This internship was my second real work experience.
             I was
             </li>
-        <li><b>Development and deployement of an application</b>: 
-            I was able to create a web application from conception, through development and until deployement and feedback.
+        <li><b>Development and deployment of an application</b>: 
+            I was able to create a web application from conception, through development and until deployment and feedback.
             </li>
         <li><b>Group project and management methods</b>: By working in a team of 6 and through daily and weekly meeting, I saw the difference between student and work team work.
             </li>
@@ -137,7 +137,7 @@
     <p class="text-justify my-5">
         To conclude, this internship was a great first step in the world of web development.
         This convinced me that web development is a field that I could like to work in.
-        I was able to apply my knowledge in a real project, and to learn new technologies about conception and deployement of a website.
+        I was able to apply my knowledge in a real project, and to learn new technologies about conception and deployment of a website.
         The work environment was also very pleasant, and I was able to learn a lot about the work in a big international company.
     </p>
     
