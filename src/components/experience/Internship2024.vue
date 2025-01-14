@@ -92,18 +92,18 @@
     <!---->
     <h3>Analysis</h3>
     <h4>What the formation brought</h4>
-    <p class="text-justify my-5">
+    <p class="text-justify mb-5">
         During these three month, I was able to apply many soft and hard skills learnt through my formation at INSA Toulouse.
     </p>
     <h5>Literature Review to start with the project</h5>
-    <p class="text-justify my-5">
+    <p class="text-justify mb-5">
         My first task was to write a literature review to inform myself on the current state of the art of the RAG method.
         Multiple classes that I had during my study years lead me to learn how to search and present a subject.
         In fourth year, we even had to make a literature review for an introduction to research.
         This ability to search the information and ensuring the validity of the sources was useful to create a document that would showcase numerous technologies.
     </p>
     <h5>Object Oriented Programming (OOP)</h5>
-    <p class="text-justify my-5">
+    <p class="text-justify mb-5">
         The front and back end of the application have been mad eusing python. 
         To ensure a proper implementation, it was essential to write clean code.
         The use of Object Oriented Programming allowed me to have a well structured code.
@@ -111,7 +111,7 @@
     </p>
     
     <h5>Database Creation and Management</h5>
-    <p class="text-justify my-5">
+    <p class="text-justify mb-5">
         For the application, I needed to create an SQL database.
         Thanks to our lessons, I was able to create a clean database following the normalization methods to avoid redundancy.
     </p>
