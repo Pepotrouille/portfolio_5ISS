@@ -1,11 +1,13 @@
 <template>
     <BackButton @change-content="ChangeContent" color="primary" class="mb-4"/>
     
-    <TitleSubject title="WIRELESS COMMUNICATION" teacher="Slim Abdellatif" color="primary"/>
+    <TitleSubject title="LP-WPAN" teacher="Slim Abdellatif" color="primary"/>
 
     <!---->
     <h3>Description of the subject</h3>
     <p class="text-justify my-5">
+
+        
         <br>
     </p>
 
@@ -24,6 +26,40 @@
     En construction
 
     <SkillMatrix :skillMatrix="skillMatrixLPWAN"/>
+
+    <TitleSubject title="EMERGING NETWORKS" teacher="Slim Abdellatif" color="primary"/>
+    <!---->
+    <h3>Description of the subject</h3>
+    <p class="text-justify my-5">
+        Notes :
+        IPv6 != IPv4 : séparer localisation et identification de communication
+        =>routeur LISP : Localisation Identification Separation Protocol
+        =>Permet de changer de mode de communciation sans la casser
+
+        Virtualisation de réseaux:
+        Logique cloud : ajuster capacité selon les besoins + fonctionnalités réseaux classiques:
+        NAT, Firewall etc.
+
+        SDN Software Defined Network:
+            =>Simplifier la gestion de réseaux
+        <br>
+    </p>
+
+    <!---->
+    <h3>Realisation</h3>
+    <p class="text-justify my-5">
+        <br>
+    </p>
+
+    <!---->
+    <h3>Analysis</h3>
+    <p class="text-justify my-5">
+        <br>
+    </p>
+
+    En construction
+
+    <SkillMatrix :skillMatrix="skillMatrixEmerging"/>
 
 
 </template>

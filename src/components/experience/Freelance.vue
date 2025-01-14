@@ -7,7 +7,8 @@
     <h3>Description of the Activity</h3>
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; Since 2020, I have been working as a freelance artist.
-        Through the platform Fiverr, I have offer my services in pixel art, mainly for video games animations or illustrations.
+        Fiverr is an online platform that allows freelancers to offer their services to clients.
+        Through this platform, I have offered my services in pixel art, mainly for video games animations or illustrations.
         I have mainly been contacted by independent video game developers, who needed an occasionnal pixel artist for their project.
         Even though this activity is not directly related to my formation, I think my activity taught me some aspects of the professional world.
     </p>
@@ -48,9 +49,6 @@
         &nbsp;&nbsp;&nbsp;&nbsp; Even though this activity is not directly related to my formation, I think it was a good experience.
         Video game development is a field that I am passionate about, and to be able to work on some independant projects was a real pleasure.
         If I wished to continue in this field as a developer, to have experience as an artist would be a real asset.
-    </p>
-    <p class="text-justify my-5">
-        
     </p>
     
 </template>
