@@ -19,6 +19,6 @@ cd portfolio_5ISS
 
 ```
 ```
-npm run start
+npm run dev
 ```
 You should be able to see the website at http://localhost:3000/
