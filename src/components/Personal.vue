@@ -12,14 +12,10 @@
                 <!--<v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary">Who I AM</v-sheet>-->
                 <v-sheet color="surface-darken-1" class="text-justify">
                     <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp; My name is Marie. I am a student in the ingeneering university of the National Institute of Applied Science, a.k.a. INSA, from Toulouse, France.
-                    I am currently in my fifth and last year of my cursus, with a specialisation in Computer and Network Engineering.
-                    Through this portfolio, I will talk about my Education, my experiences as well as my interests and profesional projects.
-                    <!-- Version FR
-                    Je m'appelle Marie, je suis une étudiante à l'école d'ingénieur Institut National des Sciences Appliquées, a.k.a INSA, de Toulouse, France. 
-                    Je suis actuellement en 5ème et dernière année de mon diplôme d'ingénieur, avec une spécialité en Informatique et Réseaux.
-                    À travers ce portfolio, je vous présenterai ma Education, mes expériences ainsi que mes intérêts et projets professionnels. 
-                    -->
+                    &nbsp;&nbsp;&nbsp;&nbsp; My name is Marie. I am a student in the engineering university of the National Institute of Applied Science, a.k.a. INSA, from Toulouse, France.
+                    I am currently in my fifth and last year of my cursus, with a specialization in Computer and Network Engineering.
+                    Through this portfolio, I will talk about my Education, my experiences as well as my interests and professional projects.
+                    
                     </p>
                     
                 </v-sheet>
@@ -58,6 +54,7 @@
                 This was also the preferred path to join the ISS PTP, that I was planning to join
                 <br><br>
                 After a few month in this formation, I find the topics really interesting, even though some are quite complex with my computer science background.
+                It is also very interesting to be in a class with people from other formations, to work and exchange with them.
                 </p>
 
                 <h3 class="text-center mt-5">After the diploma</h3>
@@ -81,7 +78,7 @@
                 <v-sheet color="surface-darken-1" class="text-h2 font-weight-bold mb-4 text-primary text-right">Points of Interest</v-sheet>
                 <p class="text-justify">
                 &nbsp;&nbsp;&nbsp;&nbsp; This section will focus around some of my passion. Though the main formation is important, it is around the passion and hobbies that it is possible to experiment and learn autonomy.
-                This is why I think this section is important.
+                This is why I think this section is important. This apply especially as some of my hobbies gave me the required knowledge and experience to find internship or achieve some of my work tasks.
                 </p>
 
                 <h3 class="text-center mt-5">Game development</h3>
@@ -92,7 +89,8 @@
                 </p>
                 <ul>
                     <li class="text-justify"><b>My freelance activity as Pixel-artist</b>: Since 2020, I am working as a freelance, to help independant game developers to create the visuals of their games. 
-                        I had the chance to be part of some large projects, such as <a href="https://www.kickstarter.com/projects/jeffreyha/l2-speak">L2 Speak</a> or <a href="https://store.steampowered.com/app/2842880/Vox_Populi_Europa_2024/">Vox Populi</a></li>
+                        I had the chance to be part of some large projects, such as <a href="https://www.kickstarter.com/projects/jeffreyha/l2-speak">L2 Speak</a> or <a href="https://store.steampowered.com/app/2842880/Vox_Populi_Europa_2024/">Vox Populi</a></li>.
+                        A section treating about my skills will be found in the Experience section of this portfolio.
                     <li class="text-justify"><b>Game jams</b>: With some of my friends or sometimes strangers, I had the opportunity to participate to game jams as graphic artist or developer. 
                         A game jam is the idea of conceiving a game or concept of a game in a limited time: a week-end, two weeks, two month...</li>
                     <li class="text-justify"><b>Teaching in a club</b>: With the help of the Club Info of the INSA Toulouse, I was able to teach to a couple of student to learn the basics to use game development software such as Unity or Godot.</li>

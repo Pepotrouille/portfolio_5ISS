@@ -2,7 +2,7 @@
     <v-container class="mb-16" v-if="currentContent == null">
         <v-row class="mb-4">
             <v-col>
-                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">Education 5ISS</v-sheet>
+                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">Experience</v-sheet>
             </v-col>
         </v-row>
         <v-row class="mb-4">

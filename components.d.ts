@@ -11,6 +11,7 @@ declare module 'vue' {
     Apprenticeship: typeof import('./src/components/experience/Apprenticeship.vue')['default']
     BackButton: typeof import('./src/components/education/subject/elements/BackButton.vue')['default']
     CloudComputingPage: typeof import('./src/components/education/subject/CloudComputingPage.vue')['default']
+    Conclusion: typeof import('./src/components/Conclusion.vue')['default']
     ContactButton: typeof import('./src/components/personnel/ContactButton.vue')['default']
     Education: typeof import('./src/components/Education.vue')['default']
     EmbeddedAIPage: typeof import('./src/components/education/subject/EmbeddedAIPage.vue')['default']
