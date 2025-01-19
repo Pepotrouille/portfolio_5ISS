@@ -69,7 +69,7 @@
     <ImageSubject   imagePath="./images/smart_device_nodered_interface.JPG" 
                     description="Final interface using NodeRed." 
                     color="secondary"
-                    width_percent="100"/>
+                    width_percent="50"/>
     
 
     <!---->

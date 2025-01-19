@@ -74,9 +74,9 @@
         <li><b>Settings</b>: The tab where you can set the retrieval and indexing capabilities.
             </li>
     </ul>
-    <ImageSubject imagePath="./images/Internship2024_Talk_Tab.PNG" description="Figure 1 - The tab where the user is able to ask questions." color="secondary" width_percent="80"/>
-    <ImageSubject imagePath="./images/Internship2024_Manage_Tab.PNG" description="Figure 2 - The tab where the user is able to manage the documents used in the retrieval." color="secondary" width_percent="80"/>
-    <ImageSubject imagePath="./images/Internship2024_Settings_Tab.PNG" description="Figure 3 - The tab where the user can set the parameters of the indexing and retrieval" color="secondary" width_percent="80"/>
+    <ImageSubject imagePath="./images/Internship2024_Talk_Tab.PNG" description="Figure 1 - The tab where the user is able to ask questions." color="secondary" width_percent="100"/>
+    <ImageSubject imagePath="./images/Internship2024_Manage_Tab.PNG" description="Figure 2 - The tab where the user is able to manage the documents used in the retrieval." color="secondary" width_percent="100"/>
+    <ImageSubject imagePath="./images/Internship2024_Settings_Tab.PNG" description="Figure 3 - The tab where the user can set the parameters of the indexing and retrieval" color="secondary" width_percent="100"/>
     
     <h4>Back End</h4>
     <p class="text-justify my-5">
@@ -87,7 +87,7 @@
         For this reasons, we decided to migrate to an PostGreSQL database, using the python library <a href="https://www.psycopg.org/">psycopg</a>.
         PostgreSQL handle quite well vectors and PostGres implementations for RAG are emerging.
     </p>
-    <ImageSubject imagePath="./images/Internship2024_Relational_Diagram.png" description="Figure 4 - The class diagram of the database." color="secondary" width_percent="60"/>
+    <ImageSubject imagePath="./images/Internship2024_Relational_Diagram.png" description="Figure 4 - The class diagram of the database." color="secondary" width_percent="75"/>
 
     <!---->
     <h3>Analysis</h3>
