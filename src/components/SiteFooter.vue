@@ -1,7 +1,9 @@
 <template>
     <v-footer height="100" color="surface-darken-1">
   
-        <v-btn @click="ChangePage('Personal')" prepend-icon="mdi-arrow-left-thick" elevation="0" color="info" class="text-surface-darken-1">
+        <!--
+      #TO DO : properly working
+      <v-btn @click="ChangePage('Personal')" prepend-icon="mdi-arrow-left-thick" elevation="0" color="info" class="text-surface-darken-1">
           ABOUT ME
         </v-btn>
         <v-spacer/>
@@ -9,6 +11,7 @@
         <v-btn @click="ChangePage('Experience')" append-icon="mdi-arrow-right-thick" elevation="0" color="info" class="text-surface-darken-1">
           EXPERIENCE
         </v-btn>
+        -->
         
     </v-footer>
   

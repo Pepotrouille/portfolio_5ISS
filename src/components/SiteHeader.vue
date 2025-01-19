@@ -3,15 +3,19 @@
   
       <v-app-bar-title>MARIE BRUNETTO</v-app-bar-title>
         <v-btn @click="ChangePage('Personal')">
-          ABOUT ME
+          INTRODUCTION
         </v-btn>
   
         <v-btn @click="ChangePage('Education')">
-          Education
+          EDUCATION
         </v-btn>
   
         <v-btn @click="ChangePage('Experience')">
           EXPERIENCE
+        </v-btn>
+  
+        <v-btn @click="ChangePage('Conclusion')">
+          CONCLUSION
         </v-btn>
         
     </v-app-bar>

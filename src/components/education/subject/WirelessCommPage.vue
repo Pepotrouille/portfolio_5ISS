@@ -1,7 +1,7 @@
 <template>
     <BackButton @change-content="ChangeContent" color="primary" class="mb-4"/>
     
-    <TitleSubject title="LP-WPAN" teacher="Slim Abdellatif" color="primary"/>
+    <TitleSubject title="An insight into Internet based technologies and protocols for Wirelessly connected things " teacher="Slim Abdellatif" color="primary"/>
 
     <!---->
     <h3>Description of the subject</h3>
@@ -31,6 +31,8 @@
     <!---->
     <h3>Description of the subject</h3>
     <p class="text-justify my-5">
+
+        <!--
         Notes :
         IPv6 != IPv4 : séparer localisation et identification de communication
         =>routeur LISP : Localisation Identification Separation Protocol
@@ -42,6 +44,7 @@
 
         SDN Software Defined Network:
             =>Simplifier la gestion de réseaux
+        -->
         <br>
     </p>
 

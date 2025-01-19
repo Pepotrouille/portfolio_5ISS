@@ -2,7 +2,7 @@
     <v-container>
         <v-row class="mb-4">
             <v-col>
-                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">About Me</v-sheet>
+                <v-sheet color="surface-darken-1" class="text-h1 font-weight-bold mb-4 text-primary text-center">Introduction</v-sheet>
             </v-col>
         </v-row>
         
