@@ -78,7 +78,7 @@
                 color="secondary"/>
 
     <!---->
-    <PDFReader  path="./documents/reports/Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot.pdf" 
+    <PDFReader  path="./documents/reports/Report_Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot.pdf" 
                 title="Report - Energetic section of the Innovative Project" 
                 language="English" 
                 madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"

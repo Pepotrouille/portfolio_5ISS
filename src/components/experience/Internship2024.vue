@@ -141,10 +141,15 @@
         The work environment was also very pleasant, and I was able to learn a lot about the work in a big international company.
     </p>
     
+    <PDFReader  path="./documents/reports/Poster_Stage_2024.pdf" 
+                title="Poster - Summary of my internship" 
+                language="French" 
+                madeBy="Marie Brunetto"
+                color="info"/>
+
 </template>
 
 <script lang="ts">
-
     export default {
         data() {
         },

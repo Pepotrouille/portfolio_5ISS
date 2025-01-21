@@ -48,7 +48,7 @@
 
     <SkillMatrix :skillMatrix="skillMatrixMiddleware" title="Middleware"/>
 
-    <PDFReader  path="./documents/reports/Report_Middleware_for_iot_brunetto_biendou.pdf" 
+    <PDFReader  path="./documents/reports/Report_Middleware_for_iot-brunetto_biendou.pdf" 
                 title="Report - Middleware for IoT" 
                 language="English" 
                 madeBy="Marie Brunetto, Brian Biendou"
