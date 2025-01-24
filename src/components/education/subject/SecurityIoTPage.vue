@@ -68,6 +68,11 @@
     <SkillMatrix :skillMatrix="skillMatrixSecNetworks" title="Security for IoT Networks"/>
 
 
+    <PDFReader  path="./documents/reports/Report_Innovative_Project_Security.pdf" 
+                title="Report - Security Part" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
 
 En construction
 

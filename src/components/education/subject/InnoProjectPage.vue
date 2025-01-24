@@ -102,6 +102,17 @@
                 madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
                 color="info"/>
 
+    <PDFReader  path="./documents/reports/Report_Innovative_Project_Security.pdf" 
+                title="Report - Security Part" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
+
+    <PDFReader  path="./documents/reports/Presentation_Innovative_Project_Final.pdf" 
+                title="Presentation: Final Oral" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
                 
 </template>
 
