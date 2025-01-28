@@ -27,7 +27,7 @@
         Our first task was to determine which improvements we could bring to the tricycle.
         Three ideas were selected:
     </p>
-    <ul>
+    <ul class="text-justify">
         <li>Implement a system to detect and prevent obstacles around the tricycle</li>
         <li>Implement a system to improve the security of the vehicle</li>
         <li>Implement a system to detect the user's heart rate and adapt the power depending on it</li>
@@ -37,7 +37,7 @@
         The idea was to adapt the power the driver will put on the tricycle depending on two factors: the heart rate and a chosen level of effort (sport, stroll...).
         To create this system, we relied on three main components:
     </p>
-    <ul>
+    <ul class="text-justify mb-5">
         <li>A smart watch to get the heart rate,</li>
         <li>The phone to display the information and chose the level of effort</li>
         <li>An ESP32, a development board, to communicate the new power to the system.</li>
@@ -46,7 +46,7 @@
     <p class="text-justify my-5">
         As a team of four, we needed to split the work to be as efficient as possible.
     </p>
-    <ul>
+    <ul class="text-justify">
         <li>Two would work on the test bench and ensure the ESP32 is properly communicating with the motor,</li>
         <li>One would work on communicating with the smart watch api and make the front-end of the application,</li>
         <li>I will make the communication between the phone and the ESP, as well as the back end of the application.</li>
@@ -64,7 +64,7 @@
         Finally, the ESP32 has a library to communicate with BLE, so we decided to use this protocol.
         The implementation was done in C++ for the ESP and typescript for the phone.
     </p>
-    <h4>Back end of the application</h4>
+    <h4>Back end and hosting of the application</h4>
     <p class="text-justify my-5">
         As we were developing the phone part of the system, we were wondering how to implement the back end of the application.
         The main question was to know if we wanted to use a phone application or a web application.
@@ -74,8 +74,24 @@
         The platform Github proposes to host websites for free, with up to 1GB of storage, which perfectly fits our needs.
         This would also require the user to have access to an internet connection.
         However, the page could work locally once loaded, so the user would not need to have a connection all the time.
+        <br>
+        The page can be accessed at <a href="https://pepotrouille.github.io/maillon_mobility/">https://pepotrouille.github.io/maillon_mobility/</a>
+        </p>
+    <h4>Rework of the front end</h4>
+    <p class="text-justify my-5">
+        Finally, a final task I had was to improve the user interface. 
+        The former appearance was convenient for development purposes.
+        However, if we want to show the project to industrials, a more proper render would be appreciated.
+        For this reason, I looked at fitness apps on Behance to get inspiration and decided to improve the existing interface, as you can see below.
+    </p>
+    <p class="text-justify my-5">
+        
         </p>
 
+        <ImageSubject   imagePath="./images/innovative_project-Front_end.JPG" 
+                    description="Final user interface on the phone." 
+                    color="secondary"
+                    width_percent="75"/>
     <!---->
     <h3>Analysis</h3>
     <p class="text-justify my-5">
@@ -90,12 +106,22 @@
         <br>
     </p>
 
-    En construction
-
     <SkillMatrix :skillMatrix="skillMatrixIP"/>
 <!--Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot-->
 
     <!---->
+    <PDFReader  path="./documents/reports/Report_Innovative_Project_Brunetto_Bigot_Caute_Biendou.pdf" 
+                title="Main Report" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
+
+    <PDFReader  path="./documents/reports/Presentation_Innovative_Project_Final.pdf" 
+                title="Presentation - Final Oral" 
+                language="English" 
+                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
+                color="info"/>
+
     <PDFReader  path="./documents/reports/Energy_Innovative_Project-Brunetto-Biendou-Caute-Bigot.pdf" 
                 title="Report - Energetic Part" 
                 language="English" 
@@ -104,12 +130,6 @@
 
     <PDFReader  path="./documents/reports/Report_Innovative_Project_Security.pdf" 
                 title="Report - Security Part" 
-                language="English" 
-                madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
-                color="info"/>
-
-    <PDFReader  path="./documents/reports/Presentation_Innovative_Project_Final.pdf" 
-                title="Presentation: Final Oral" 
                 language="English" 
                 madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
                 color="info"/>
@@ -126,7 +146,7 @@
                                   {skill: "Understand production, validation, distribution, acceptability, and aftermath of innovation", expected: 4, estimated: 4},
                                   {skill: "Structure and lead an innovative project", expected: 4, estimated: 4},
                                   {skill: "Analyze a real-life problem", expected: 4, estimated: 4},
-                                  {skill: "Suggest a technological solution to a problem", expected: 4, estimated: 4},
+                                  {skill: "Suggest a technological solution to a problem", expected: 4, estimated: 3.5},
                                   {skill: "Implement a prototype to solve the problem", expected: 4, estimated: 4},
                                   {skill: "Present and debate (in English) the technical choice made", expected: 4, estimated: 4},
                                   {skill: "Produce a report (in English) for the developed project", expected: 4, estimated: 4},
