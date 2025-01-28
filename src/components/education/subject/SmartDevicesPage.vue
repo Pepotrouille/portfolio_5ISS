@@ -85,11 +85,6 @@
     <SkillMatrix :skillMatrix="skillMatrixIntroSensor" title="Introduction to Sensors"/>
 
     <SkillMatrix :skillMatrix="skillMatrixMicroContro" title="Micro Controllers"/>
-
-
-        En construction
-
-
 </template>
 
 <script lang="ts">

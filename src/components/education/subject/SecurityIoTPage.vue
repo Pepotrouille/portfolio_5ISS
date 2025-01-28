@@ -74,8 +74,6 @@
                 madeBy="Marie Brunetto, Timothé Bigot, Brian Biendou, Achille Caute"
                 color="info"/>
 
-En construction
-
 </template>
 
 <script lang="ts">

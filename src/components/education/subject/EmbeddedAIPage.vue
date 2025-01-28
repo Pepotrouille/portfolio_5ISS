@@ -38,10 +38,6 @@
     <SkillMatrix :skillMatrix="skillMatrixEmbAI"/>
     
 
-
-
-  En construction
-
 <!---->
 
 </template>

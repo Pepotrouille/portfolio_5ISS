@@ -39,7 +39,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp; Even though I am now familiar with Vue, I had some difficulties when it came to hosting. 
         Even though it was working when I ran it locally, the build of the page had issues with the route to access the pages. 
         The process was then unable to detect the main pages and to build it into a html page.
-        I was able to overcome this problem through some documentation online and a lot of trial and error.
+        Unfortunately, I was unable to fix that issue before the final presentation, and had to hand over this portfolio only running locally.
         <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp; Once the web page done, I then needed to write their content.
         It took longer than expected to summarize each lesson, especially when it comes to analyzing.
@@ -59,10 +59,14 @@
     <p class="text-justify my-5">
         &nbsp;&nbsp;&nbsp;&nbsp; The portfolio course was a good opportunity to have a retrospective, not only on my last year of engineering studies, but also my work experience in general.
         It was interesting to look at each subject and ask myself how it is and could be used through my project, whether they professional or personal.
-        It was also a good opportunity to question myself about how much a lesson was understood, and if I felt like this subject was mastered, understood or lacking o comprehension. 
+        It was also a good opportunity to question myself about how much a lesson was understood, and if I felt like this subject was mastered, understood or lacked comprehension in. 
+        Finally, it was also a good opportunity to apply knowledge about development I learned throughout the years, and to be able to show it through presentable portfolio.
+        <br><br>
         I also learned that it is important to evaluate the amount of work in advance, especially when it comes to a long term project such as the portfolio.
-        I had some difficulties timing myself for the work, and a more rigorous planning could be preferred.
-        Finally, it was also a good opportunity to apply knowledge about development I learned throughout the years, and to be able to show it through a fully functioning online portfolio.
+        I had some difficulties timing myself for the work (despite the advice of some of my professors), and a more rigorous planning could be preferred.
+        Finally, I had some difficulties with the deployment of the portfolio. 
+        Even though I was not able to solve this problem during this semester, I will probably try to fix it in the next week, when I will have more freetime.
+        As I really liked to develop in vue, to be able to hand over a portfolio as a website to a future employer in case I search to work in web development would be a remarkable addition.
     </p>
 
     <SkillMatrix :skillMatrix="skillMatrixPortfolio"/>
